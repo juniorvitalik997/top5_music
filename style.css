@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    background-color: #232323;
+    color: #fff;
+    font-family: 'Montserrat Alternates'
+}
+
+.audioContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+audio{
+    margin-top: 40px;
+}
